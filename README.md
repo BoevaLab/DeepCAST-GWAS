@@ -120,6 +120,8 @@ DeepCAST-GWAS marks variants as “coding” by membership in `data/genome_assem
 
 You can download coding SNPs as csv [here](https://polybox.ethz.ch/index.php/s/3Sy84Se5j99bdmE).
 
+Alternatively, you can generate your own list using an alternative exon list.
+
 - Run:
 
 ```bash
