@@ -1,4 +1,4 @@
-# DeepCAST-GWAS (camera-ready)
+# DeepCAST-GWAS
 
 DeepCAST-GWAS is a GWAS post-processing pipeline that integrates **Enformer-derived SAD scores** and coding-variant annotations to prioritize variants and loci.
 
@@ -112,16 +112,14 @@ Each reference CSV must contain the merge keys and annotation columns:
 - **Required**: `snp` (rsID)
 - **SAD columns**: `SAD<track_index>` for every track listed in the phenotype’s tracklist
 
-You can download the reference genome merged with the Enformer tracks [here](www.provide_download_link.com).
+You can download the reference genome merged with the Enformer tracks [here](https://polybox.ethz.ch/index.php/s/3Sy84Se5j99bdmE).
 
 ### Coding SNP list (exon-derived)
 
 DeepCAST-GWAS marks variants as “coding” by membership in `data/genome_assembly/coding_snps.csv` (rsIDs).
 
-You can download exon regions as pdf [here](www.provide_download_link.com).
+You can download coding SNPs as csv [here](https://polybox.ethz.ch/index.php/s/3Sy84Se5j99bdmE).
 
-To (re)generate the coding SNP list:
-- Set `GFF_FILE_PATH` in `src/config.py` to a gene annotation GFF/GFF3
 - Run:
 
 ```bash
